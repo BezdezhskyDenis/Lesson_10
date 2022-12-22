@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&family=Indie+Flower&family=Unbounded:wght@200;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Unbounded:wght@200;400;500&display=swap");
+body {
+  background-color: blanchedalmond;
+}
+
+h1 {
+  font-family: "Unbounded";
+  font-weight: 900;
+  color: deepskyblue;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  text-shadow: -6px 4px 8px rgba(0, 0, 0, 1),
+    -9px -1px 18px rgba(47, 63, 117, 1), 18px -9px 23px rgba(74, 63, 39, 1),
+    6px -8px 6px rgba(89, 71, 72, 1);
+}
+h4 {
+  text-shadow: -6px 4px 8px rgba(0, 0, 0, 1),
+    -9px -1px 18px rgba(47, 63, 117, 1), 18px -9px 23px rgba(74, 63, 39, 1),
+    6px -8px 6px rgba(89, 71, 72, 1);
+  font-family: "Unbounded";
+  font-style: bold;
+
+  color: darksalmon;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+
+.different-font {
+  font-family: "Indie Flower";
+  font-weight: 900;
+  padding: 3px;
+}
+
+.text-center {
+  text-align: center;
+  background-color: rgb(0, 170, 255);
+  border-radius: 20px;
+  font-family: "Chivo Mono";
+  cursor: pointer;
+  text-decoration: underline rgb(93, 0, 255);
+}
+
+.text-left {
+  text-align: left;
+  background-color: rgb(0, 170, 255);
+  border-radius: 20px;
+  font-family: "Chivo Mono";
+  cursor: grab;
+  text-decoration: underline rgb(93, 0, 255);
+}
+
+.text-right {
+  cursor: wait;
+  text-align: right;
+  background-color: rgb(0, 170, 255);
+  border-radius: 20px;
+  font-family: "Chivo Mono";
+  text-decoration: underline rgb(93, 0, 255);
+}
+
+.text-justifyed {
+  text-align: justify;
+  cursor: move;
+  background-color: rgb(0, 170, 255);
+  border-radius: 20px;
+  font-family: "Chivo Mono";
+  text-decoration: underline rgb(93, 0, 255);
+}
+
+p:hover,
+li:hover {
+  background-color: rgb(181, 252, 0);
+}
+
+p {
+  padding: 8px;
+}
+
+.box{
+    margin: 10px;
+    border: 1px solid black;
+    background-color: beige;
+    display: inline-block;
+    margin-bottom: 60px;
+}
+
+.btn{
+    width: fit-content;
+    height: 60px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    font-size: 2rem;
+    background-color: lawngreen;
+    cursor: pointer;
+}
